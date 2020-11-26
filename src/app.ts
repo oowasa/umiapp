@@ -5,5 +5,6 @@ export const request = {
   prefix: '/api',
   errorHandler: (error: ResponseError) => {
     console.log(error);
+    console.log(333);
   }
 }
