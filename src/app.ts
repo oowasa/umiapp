@@ -6,5 +6,6 @@ export const request = {
   errorHandler: (error: ResponseError) => {
     console.log(error);
     console.log(333);
+    console.log(34444);
   }
 }
